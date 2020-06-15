@@ -1,0 +1,62 @@
+/* nav bar */
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+#nav {
+  display: block;
+  background-color: rgb(209, 198, 198);
+  display: inline-block;
+  width: 98vw;
+  border: 3px solid #51ff25;
+  border-radius: 5px;
+  margin: 6px;
+}
+
+/* main section */
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: url("assets/images/balance-in-the-force.png");
+}
+
+#quizBody {
+  text-align: center;
+  padding: 12vh;
+}
+h1 {
+  color: white;
+}
+
+h4 {
+  padding: 10px 8px 10px 8px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  border: none;
+  background-color: #b83eff;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 16px 10px 16px;
+  font-size: 17px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 4px;
+}
+
+button:hover {
+  transition-duration: 0.4s;
+  background-color: #00aeff;
+}
+
+#quiz {
+  text-align: center;
+}
