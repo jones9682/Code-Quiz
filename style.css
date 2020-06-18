@@ -11,10 +11,14 @@
   display: block;
   background-color: rgb(209, 198, 198);
   display: inline-block;
-  width: 98vw;
+  width: 99vw;
   border: 3px solid #51ff25;
   border-radius: 5px;
   margin: 6px;
+}
+
+h4 {
+  padding: 10px 8px 10px 8px;
 }
 
 /* main section */
@@ -26,50 +30,80 @@ body {
   background: url("assets/images/balance-in-the-force.png");
 }
 
-section {
-  padding: 0 100px;
-  height: 40vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.container {
+  height: 330px;
+  width: 1000px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border: 1px solid #b83eff;
+  box-shadow: 0 0 8px 3px #fff;
 }
 
-.box {
-  position: relative;
-  max-width: 200px;
-  padding: 50px;
-  background: rgba(255, 255, 255, 0.4);
-}
-
-#quizBody {
+.title {
+  padding-top: 10px;
+  padding-bottom: 20px;
   text-align: center;
-  padding: 12vh;
-}
-h1 {
-  color: rgb(0, 0, 0);
-}
-
-h4 {
-  padding: 10px 8px 10px 8px;
-}
-
-a {
-  text-decoration: none;
+  font-size: 36px;
+  text-transform: uppercase;
   color: black;
+}
+
+.question {
+  padding: 20px;
+  font-size: 22px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  margin: inline-block;
+  color: #47443d;
+}
+
+.option {
+  width: 470px;
+  display: inline-block;
+  padding: 10px 0 10px 15px;
+  vertical-align: middle;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 10px 0 10px 10px;
+  color: #000000;
+  border-radius: 20px;
 }
 
 button {
   border: none;
+  outline: none;
   background-color: #b83eff;
   color: white;
-  border-radius: 5px;
-  padding: 10px 16px 10px 16px;
-  font-size: 17px;
+  width: 100px;
+  height: 35px;
+  border-radius: 20px;
+  font-size: 12px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  margin: 4px;
+  cursor: pointer;
+  float: right;
+  margin: 10px;
 }
 
 button:hover {
   transition-duration: 0.4s;
   background-color: #00aeff;
+}
+
+.result {
+  height: 100px;
+  text-align: center;
+  font-size: 75px;
+}
+
+.option input:checked .option {
+  background: #b83eff;
+  color: #000;
+}
+
+.option:hover {
+  background-color: #b83eff;
+  color: #f6f6f6;
 }
