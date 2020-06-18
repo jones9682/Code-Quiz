@@ -1,45 +1,45 @@
 // array of the questions, choices, and answers
 var questions = [
   {
-    title:
+    question:
       "Which stormtrooper wasn't able to complete his mission in 'Star Wars: The Force Awakens'?",
-    choices: ["A. FN-2705()", "B. FN-2187()", "C. FN-1205()", "D. FN-9682()"],
-    answer: "B. FN-2187()",
+    optionA: "A. FN-2705",
+    optionB: "B. FN-2187",
+    optionC: "C. FN-1205",
+    optionD: "D. FN-9682",
+    answer: "B",
   },
   {
-    title: "What kind of vehicle did Rey live in",
-    choices: [
-      "A. AT-ST()",
-      "B. Star Destroyer()",
-      "C. AT-AT()",
-      "D. Mon Calimari()",
-    ],
-    answer: "C. AT-AT()",
+    question: "What kind of vehicle did Rey live in?",
+    optionA: "A. T-ST",
+    optionB: "B. Star Destroyer",
+    optionC: "C. AT-AT",
+    optionD: "D. Mon Calimari",
+    answer: "C",
   },
   {
-    title: "According to Master Yoda, how many Sith are always out there?",
-    choices: ["A. 4()", "B. 3()", "C. 1()", "D. 2()"],
-    answer: "D. 2()",
+    question: "According to Master Yoda, how many Sith are always out there?",
+    optionA: "A. 4",
+    optionB: "B. 3",
+    optionC: "C. 1",
+    optionD: "D. 2",
+    answer: "D",
   },
   {
-    title:
+    question:
       "What happened to Anakin Skywalker during the battle with Count Dooku?",
-    choices: [
-      "A. He lost his leg()",
-      "B. He lost his right arm()",
-      "C. He lost his right leg()",
-      "D. he died()",
-    ],
-    answer: "B. He lost his right arm()",
+    optionA: "A. He lost his left leg",
+    optionB: "B. He lost his right arm",
+    optionC: "C. He lost his right leg",
+    optionD: "D. He died",
+    answer: "B",
   },
   {
-    title: "Who killed Jabba?",
-    choices: [
-      "A. Han Solo()",
-      "B. C-3PO()",
-      "C. Luke Skywalker()",
-      "D. Princess Leia()",
-    ],
-    answer: "D. Princess Leia()",
+    question: "Who killed Jabba?",
+    optionA: "A. Han Solo",
+    optionB: "B. C-3PO",
+    optionC: "C. Luke Skywalker",
+    optionD: "D. Princess Leia",
+    answer: "D",
   },
 ];
