@@ -33,7 +33,7 @@ function loadNextQuestion() {
   }
 
   // if question is correct you will score 10 points
-  var answer = selectedOption.Value;
+  var answer = selectedOption.value;
   if (questions[CurrentQuestion].answer == answer) {
     score += 10;
   }
